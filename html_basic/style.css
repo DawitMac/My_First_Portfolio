@@ -1,8 +1,42 @@
-*{
-    box-sizing: border-box;
+* {
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+  }
+  :root {
+    --main-color: #d85b30;
+    --body-color: #090a1a;
+    --container-color: #171b3c;
+    --heading-color: #222231;
+    --box-color: #0d0f26;
+    --bg-color: #fff;
+  }
+  body {
+    color: var(--bg-color);
+    background: var(--body-color);
+  }
+  html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: transparent;
+  }
+  html::-webkit-scrollbar-thumb {
+    background: var(--heading-color);
+  }
+  img {
+    width: 100%;
+  }
+  section {
+    padding: 3rem 0 2rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
 
 
 
